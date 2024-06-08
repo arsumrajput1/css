@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vh;
+    height:100vh;
+}
+
+
+.nav-top {
+    display:block;
+    background-color: black;
+    height: 60px;
+    background-attachment: fixed;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    
+}
+.nav-info {
+    display: inline;
+    padding: 100px;
+    
+}
+#icons {
+    color: #FF9A00;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+span {
+    color: #686D76;
+    padding-top: 20px;
+}
+
+.social-links {
+    float:right;
+    margin-top: 20px;
+    margin-right:200px;
+    
+}
+#social {
+    margin-left: 30px;
+    color:white;
+}
+ a {
+   color: white;
+   text-decoration: none;
+   margin-left: 30px; 
+}
+
+.list {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: white;
+    height: 50px;
+}
+.my-kotlin {
+    margin-bottom: 20px;
+}
+.unorder {
+    display:flex;
+}
+
+ li {
+    list-style: none;
+ }
+.ul-list {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.contact-details {
+    margin-right: 10px;
+}
+   /* ****Section-1**** */
+.hero-sec {
+    background-image:url('/images/WhatsApp\ Image\ 2024-06-03\ at\ 18.50.51_a23fb9cf.jpg');
+    height: 75vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.material {
+    color: white;
+    font-size:18px;
+}
+
+
+.btn-1 {
+    background-color: #FF9A00;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-1:hover {
+    color:white;
+    background-color: #686D76;
+}
+.main-mid {
+    width: 450px;
+    height: 500px;
+    margin-left: 100px;
+
+}
+.mid-area {
+    width: 400px;
+    height: 300px;
+   
+}
+.first-div {
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    background-color: #FF9A00;
+   
+}
+.angry-man {
+    width: 260px;
+    height: 250px;
+    padding-left: 40px;
+   
+}
+.text-box {
+    background-color: azure;
+    box-shadow: 10px 10px 10px gray;
+    position:relative;
+    text-align: center;
+    bottom: 90%;
+    right:15%;
+}
+.number {
+    font-size: 14px;
+}
+.box {
+    font-weight: 400;
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+}
+last-img {
+    margin-bottom: 50px;
+}
+
+.last-man {
+   position: relative;
+   left: 70%;
+   /* bottom: 30%; */
+   width: 100px;
+   height: 100px;
+}
+.sub-area {
+    /* margin-left: 50px; */
+   position: relative;
+   left: 80%;
+   bottom:70%;
+   /* width: 400px;
+   height: 300px; */
+}
+.second-div {
+  margin-left: 100px;
+   
+} 
+.comp {
+  text-align: left;
+  margin-top: 40px;
+}
+
+
+h4 {
+    color: #686D76;
+    font-size: 24px;
+    
+}
+.creative {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+.global {
+    color: #FF9A00;
+    padding-top: 20px;
+}
+.experiance {
+    font-weight: bold;
+   
+}
+
+.lorem {
+    padding-top: 30px;
+    color: #686D76;
+    text-align: left;
+}
+.points {
+    margin-top: 30px;
+}
+
+.checks {
+    color: #FF9A00;
+   
+}
+.check-points {
+    display: inline;
+    color: black;
+    margin-left: 10px;
+}
+
+/* ***Page 2 end**** */
+
+.third-page {
+    /* width: 100vw;
+    height: 500px; */
+    /* background-color:aliceblue; */
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.industries {
+   
+    width: 100vw;
+    height: 500px;
+    display: felx;
+    justify-content: space-around;
+}
+
+.offers {
+    color: #686D76;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+h3 {
+    font-size:28px;
+    font: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .card-img {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    
+} */
+.card {
+    float: left;
+    left: 20%;
+}
+
+.card-text {
+    display:flex;
+    text-align: left;
+}
+.card-head {
+    font-size: 16px;
+   
+}
+#arrow {
+    position: relative;
+    right: 50%;
+}
+
